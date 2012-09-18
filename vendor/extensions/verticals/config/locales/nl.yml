@@ -1,0 +1,28 @@
+nl:
+  refinery:
+    plugins:
+      verticals:
+        title: Verticals
+    verticals:
+      admin:
+        verticals:
+          actions:
+            create_new: Maak een nieuwe Vertical
+            reorder: Wijzig de volgorde van de Verticals
+            reorder_done: Klaar met het wijzingen van de volgorde van de Verticals
+          records:
+            title: Verticals
+            sorry_no_results: Helaas! Er zijn geen resultaten gevonden.
+            no_items_yet: Er zijn nog geen Verticals. Druk op 'Maak een nieuwe Vertical' om de eerste aan te maken.
+          vertical:
+            view_live_html: Bekijk deze vertical op de website <br/><em>(opent een nieuw venster)</em>
+            edit: Bewerk deze vertical
+            delete: Verwijder deze vertical voor eeuwig
+      verticals:
+        show:
+          other: Andere Verticals
+  activerecord:
+    attributes:
+      'refinery/verticals/vertical':
+        title: Title
+        blurb: Blurb

@@ -1,0 +1,28 @@
+nl:
+  refinery:
+    plugins:
+      requirements:
+        title: Requirements
+    requirements:
+      admin:
+        requirements:
+          actions:
+            create_new: Maak een nieuwe Requirement
+            reorder: Wijzig de volgorde van de Requirements
+            reorder_done: Klaar met het wijzingen van de volgorde van de Requirements
+          records:
+            title: Requirements
+            sorry_no_results: Helaas! Er zijn geen resultaten gevonden.
+            no_items_yet: Er zijn nog geen Requirements. Druk op 'Maak een nieuwe Requirement' om de eerste aan te maken.
+          requirement:
+            view_live_html: Bekijk deze requirement op de website <br/><em>(opent een nieuw venster)</em>
+            edit: Bewerk deze requirement
+            delete: Verwijder deze requirement voor eeuwig
+      requirements:
+        show:
+          other: Andere Requirements
+  activerecord:
+    attributes:
+      'refinery/requirements/requirement':
+        language: Language
+        blurb: Blurb

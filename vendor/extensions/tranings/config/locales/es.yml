@@ -1,0 +1,30 @@
+es:
+  refinery:
+    plugins:
+      tranings:
+        title: Tranings
+#        article: masculino/femenino
+    tranings:
+      admin:
+        tranings:
+          actions:
+            create_new: Crear nuevo traning
+            reorder: Reordenar tranings
+            reorder_done: Reordenación de tranings completada
+          records:
+            title: Tranings
+            sorry_no_results: Lo siento, no hay resultados
+            no_items_yet: No hay tranings todavía. Pulsa en "Crear nuevo Traning" para crear tu primer traning.
+          traning:
+            view_live_html: Ver este traning como abierto al público <br/><em>(abre en ventana nueva)</em>
+            edit: Editar este traning
+            delete: Borrar este traning para siempre
+      tranings:
+        show:
+          other: Otros tranings
+  activerecord:
+    attributes:
+      'refinery/tranings/traning':
+        title: Title
+        blurb: Blurb
+        date: Date

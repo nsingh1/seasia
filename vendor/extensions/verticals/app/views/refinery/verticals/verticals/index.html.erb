@@ -1,0 +1,11 @@
+<% content_for :body do %>
+  <ul id="verticals">
+    <% @verticals.each do |vertical| %>
+      <li>
+        <%= link_to vertical.title, refinery.verticals_vertical_path(vertical) %>
+      </li>
+    <% end %>
+  </ul>
+<% end %>
+
+<%= render '/refinery/content_page' %>

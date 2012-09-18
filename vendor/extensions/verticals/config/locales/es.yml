@@ -1,0 +1,29 @@
+es:
+  refinery:
+    plugins:
+      verticals:
+        title: Verticals
+#        article: masculino/femenino
+    verticals:
+      admin:
+        verticals:
+          actions:
+            create_new: Crear nuevo vertical
+            reorder: Reordenar verticals
+            reorder_done: Reordenación de verticals completada
+          records:
+            title: Verticals
+            sorry_no_results: Lo siento, no hay resultados
+            no_items_yet: No hay verticals todavía. Pulsa en "Crear nuevo Vertical" para crear tu primer vertical.
+          vertical:
+            view_live_html: Ver este vertical como abierto al público <br/><em>(abre en ventana nueva)</em>
+            edit: Editar este vertical
+            delete: Borrar este vertical para siempre
+      verticals:
+        show:
+          other: Otros verticals
+  activerecord:
+    attributes:
+      'refinery/verticals/vertical':
+        title: Title
+        blurb: Blurb

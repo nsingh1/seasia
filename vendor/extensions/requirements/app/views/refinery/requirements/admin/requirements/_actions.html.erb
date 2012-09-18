@@ -1,0 +1,25 @@
+<ul>
+  <% if ::Refinery::Requirements::Admin::RequirementsController.searchable? %>
+    <li>
+      <%= render '/refinery/admin/search', :url => refinery.requirements_admin_requirements_path %>
+    </li>
+  <% end %>
+  <li>
+    <%= link_to t('.create_new'), refinery.new_requirements_admin_requirement_path,
+                 :class => "add_icon" %>
+  </li>
+<% if !searching? && ::Refinery::Requirements::Admin::RequirementsController.sortable? && ::Refinery::Requirements::Requirement.any? %>
+  <li>
+    <%= link_to t('.reorder', :what => "Requirements"),
+                 refinery.requirements_admin_requirements_path,
+                 :id => "reorder_action",
+                 :class => "reorder_icon" %>
+
+    <%= link_to t('.reorder_done', :what => "Requirements"),
+                 refinery.requirements_admin_requirements_path,
+                 :id => "reorder_action_done",
+                 :style => "display: none;",
+                 :class => "reorder_icon" %>
+  </li>
+<% end %>
+</ul>

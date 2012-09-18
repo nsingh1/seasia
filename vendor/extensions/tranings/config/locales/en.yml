@@ -1,0 +1,29 @@
+en:
+  refinery:
+    plugins:
+      tranings:
+        title: Tranings
+    tranings:
+      admin:
+        tranings:
+          actions:
+            create_new: Add New Traning
+            reorder: Reorder Tranings
+            reorder_done: Done Reordering Tranings
+          records:
+            title: Tranings
+            sorry_no_results: Sorry! There are no results found.
+            no_items_yet: There are no Tranings yet. Click "Add New Traning" to add your first traning.
+          traning:
+            view_live_html: View this traning live <br/><em>(opens in a new window)</em>
+            edit: Edit this traning
+            delete: Remove this traning forever
+      tranings:
+        show:
+          other: Other Tranings
+  activerecord:
+    attributes:
+      'refinery/tranings/traning':
+        title: Title
+        blurb: Blurb
+        date: Date

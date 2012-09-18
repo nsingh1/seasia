@@ -1,0 +1,28 @@
+en:
+  refinery:
+    plugins:
+      requirements:
+        title: Requirements
+    requirements:
+      admin:
+        requirements:
+          actions:
+            create_new: Add New Requirement
+            reorder: Reorder Requirements
+            reorder_done: Done Reordering Requirements
+          records:
+            title: Requirements
+            sorry_no_results: Sorry! There are no results found.
+            no_items_yet: There are no Requirements yet. Click "Add New Requirement" to add your first requirement.
+          requirement:
+            view_live_html: View this requirement live <br/><em>(opens in a new window)</em>
+            edit: Edit this requirement
+            delete: Remove this requirement forever
+      requirements:
+        show:
+          other: Other Requirements
+  activerecord:
+    attributes:
+      'refinery/requirements/requirement':
+        language: Language
+        blurb: Blurb

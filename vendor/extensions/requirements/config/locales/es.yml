@@ -1,0 +1,29 @@
+es:
+  refinery:
+    plugins:
+      requirements:
+        title: Requirements
+#        article: masculino/femenino
+    requirements:
+      admin:
+        requirements:
+          actions:
+            create_new: Crear nuevo requirement
+            reorder: Reordenar requirements
+            reorder_done: Reordenación de requirements completada
+          records:
+            title: Requirements
+            sorry_no_results: Lo siento, no hay resultados
+            no_items_yet: No hay requirements todavía. Pulsa en "Crear nuevo Requirement" para crear tu primer requirement.
+          requirement:
+            view_live_html: Ver este requirement como abierto al público <br/><em>(abre en ventana nueva)</em>
+            edit: Editar este requirement
+            delete: Borrar este requirement para siempre
+      requirements:
+        show:
+          other: Otros requirements
+  activerecord:
+    attributes:
+      'refinery/requirements/requirement':
+        language: Language
+        blurb: Blurb

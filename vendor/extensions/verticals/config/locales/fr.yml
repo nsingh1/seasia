@@ -1,0 +1,28 @@
+fr:
+  refinery:
+    plugins:
+      verticals:
+        title: Verticals
+    verticals:
+      admin:
+        verticals:
+          actions:
+            create_new: Créer un(e) nouve(au/l/lle) Vertical
+            reorder: Réordonner les Verticals
+            reorder_done: Fin de réordonnancement des Verticals
+          records:
+            title: Verticals
+            sorry_no_results: "Désolé ! Aucun résultat."
+            no_items_yet: 'Il n''y a actuellement aucun(e) Vertical. Cliquer sur "Créer un(e) nouve(au/l/lle) Vertical" pour créer votre premi(er/ère) vertical.'
+          vertical:
+            view_live_html: Voir ce(t/tte) vertical <br/><em>(Ouvre une nouvelle fenêtre)</em>
+            edit: Modifier ce(t/tte) vertical
+            delete: Supprimer définitivement ce(t/tte) vertical
+      verticals:
+        show:
+          other: Autres Verticals
+  activerecord:
+    attributes:
+      'refinery/verticals/vertical':
+        title: Title
+        blurb: Blurb

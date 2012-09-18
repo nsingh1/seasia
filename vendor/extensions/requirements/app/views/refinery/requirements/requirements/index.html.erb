@@ -1,0 +1,11 @@
+<% content_for :body do %>
+  <ul id="requirements">
+    <% @requirements.each do |requirement| %>
+      <li>
+        <%= link_to requirement.language, refinery.requirements_requirement_path(requirement) %>
+      </li>
+    <% end %>
+  </ul>
+<% end %>
+
+<%= render '/refinery/content_page' %>

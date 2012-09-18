@@ -1,0 +1,29 @@
+nb:
+  refinery:
+    plugins:
+      tranings:
+        title: Tranings
+    tranings:
+      admin:
+        tranings:
+          actions:
+            create_new: Lag en ny Traning
+            reorder: Endre rekkefølgen på Tranings
+            reorder_done: Ferdig å endre rekkefølgen Tranings
+          records:
+            title: Tranings
+            sorry_no_results: Beklager! Vi fant ikke noen resultater.
+            no_items_yet: Det er ingen Tranings enda. Klikk på "Lag en ny Traning" for å legge til din første traning.
+          traning:
+            view_live_html: Vis hvordan denne traning ser ut offentlig <br/><em>(åpner i et nytt vindu)</em>
+            edit: Rediger denne traning
+            delete: Fjern denne traning permanent
+      tranings:
+        show:
+          other: Andre Tranings
+  activerecord:
+    attributes:
+      'refinery/tranings/traning':
+        title: Title
+        blurb: Blurb
+        date: Date

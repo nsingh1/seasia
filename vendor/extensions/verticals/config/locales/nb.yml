@@ -1,0 +1,28 @@
+nb:
+  refinery:
+    plugins:
+      verticals:
+        title: Verticals
+    verticals:
+      admin:
+        verticals:
+          actions:
+            create_new: Lag en ny Vertical
+            reorder: Endre rekkefølgen på Verticals
+            reorder_done: Ferdig å endre rekkefølgen Verticals
+          records:
+            title: Verticals
+            sorry_no_results: Beklager! Vi fant ikke noen resultater.
+            no_items_yet: Det er ingen Verticals enda. Klikk på "Lag en ny Vertical" for å legge til din første vertical.
+          vertical:
+            view_live_html: Vis hvordan denne vertical ser ut offentlig <br/><em>(åpner i et nytt vindu)</em>
+            edit: Rediger denne vertical
+            delete: Fjern denne vertical permanent
+      verticals:
+        show:
+          other: Andre Verticals
+  activerecord:
+    attributes:
+      'refinery/verticals/vertical':
+        title: Title
+        blurb: Blurb

@@ -1,0 +1,33 @@
+<% content_for :body_content_title do %>
+  <%= @requirement.language %>
+<% end %>
+
+<% content_for :body do %>
+  <section>
+    <h1>Language</h1>
+    <p>
+      <%=raw @requirement.language %>
+    </p>
+  </section>
+  <section>
+    <h1>Blurb</h1>
+    <p>
+      <%=raw @requirement.blurb %>
+    </p>
+  </section>
+<% end %>
+
+<% content_for :side_body do %>
+  <aside>
+    <h2><%= t('.other') %></h2>
+    <ul id="requirements">
+      <% @requirements.each do |requirement| %>
+        <li>
+          <%= link_to requirement.language, refinery.requirements_requirement_path(requirement) %>
+        </li>
+      <% end %>
+    </ul>
+  </aside>
+<% end %>
+
+<%= render '/refinery/content_page' %>

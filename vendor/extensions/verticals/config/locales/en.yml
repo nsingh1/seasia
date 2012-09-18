@@ -1,0 +1,28 @@
+en:
+  refinery:
+    plugins:
+      verticals:
+        title: Verticals
+    verticals:
+      admin:
+        verticals:
+          actions:
+            create_new: Add New Vertical
+            reorder: Reorder Verticals
+            reorder_done: Done Reordering Verticals
+          records:
+            title: Verticals
+            sorry_no_results: Sorry! There are no results found.
+            no_items_yet: There are no Verticals yet. Click "Add New Vertical" to add your first vertical.
+          vertical:
+            view_live_html: View this vertical live <br/><em>(opens in a new window)</em>
+            edit: Edit this vertical
+            delete: Remove this vertical forever
+      verticals:
+        show:
+          other: Other Verticals
+  activerecord:
+    attributes:
+      'refinery/verticals/vertical':
+        title: Title
+        blurb: Blurb

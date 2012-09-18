@@ -1,0 +1,28 @@
+nb:
+  refinery:
+    plugins:
+      requirements:
+        title: Requirements
+    requirements:
+      admin:
+        requirements:
+          actions:
+            create_new: Lag en ny Requirement
+            reorder: Endre rekkefølgen på Requirements
+            reorder_done: Ferdig å endre rekkefølgen Requirements
+          records:
+            title: Requirements
+            sorry_no_results: Beklager! Vi fant ikke noen resultater.
+            no_items_yet: Det er ingen Requirements enda. Klikk på "Lag en ny Requirement" for å legge til din første requirement.
+          requirement:
+            view_live_html: Vis hvordan denne requirement ser ut offentlig <br/><em>(åpner i et nytt vindu)</em>
+            edit: Rediger denne requirement
+            delete: Fjern denne requirement permanent
+      requirements:
+        show:
+          other: Andre Requirements
+  activerecord:
+    attributes:
+      'refinery/requirements/requirement':
+        language: Language
+        blurb: Blurb

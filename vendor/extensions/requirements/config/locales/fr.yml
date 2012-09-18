@@ -1,0 +1,28 @@
+fr:
+  refinery:
+    plugins:
+      requirements:
+        title: Requirements
+    requirements:
+      admin:
+        requirements:
+          actions:
+            create_new: Créer un(e) nouve(au/l/lle) Requirement
+            reorder: Réordonner les Requirements
+            reorder_done: Fin de réordonnancement des Requirements
+          records:
+            title: Requirements
+            sorry_no_results: "Désolé ! Aucun résultat."
+            no_items_yet: 'Il n''y a actuellement aucun(e) Requirement. Cliquer sur "Créer un(e) nouve(au/l/lle) Requirement" pour créer votre premi(er/ère) requirement.'
+          requirement:
+            view_live_html: Voir ce(t/tte) requirement <br/><em>(Ouvre une nouvelle fenêtre)</em>
+            edit: Modifier ce(t/tte) requirement
+            delete: Supprimer définitivement ce(t/tte) requirement
+      requirements:
+        show:
+          other: Autres Requirements
+  activerecord:
+    attributes:
+      'refinery/requirements/requirement':
+        language: Language
+        blurb: Blurb

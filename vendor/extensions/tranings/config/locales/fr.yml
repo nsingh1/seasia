@@ -1,0 +1,29 @@
+fr:
+  refinery:
+    plugins:
+      tranings:
+        title: Tranings
+    tranings:
+      admin:
+        tranings:
+          actions:
+            create_new: Créer un(e) nouve(au/l/lle) Traning
+            reorder: Réordonner les Tranings
+            reorder_done: Fin de réordonnancement des Tranings
+          records:
+            title: Tranings
+            sorry_no_results: "Désolé ! Aucun résultat."
+            no_items_yet: 'Il n''y a actuellement aucun(e) Traning. Cliquer sur "Créer un(e) nouve(au/l/lle) Traning" pour créer votre premi(er/ère) traning.'
+          traning:
+            view_live_html: Voir ce(t/tte) traning <br/><em>(Ouvre une nouvelle fenêtre)</em>
+            edit: Modifier ce(t/tte) traning
+            delete: Supprimer définitivement ce(t/tte) traning
+      tranings:
+        show:
+          other: Autres Tranings
+  activerecord:
+    attributes:
+      'refinery/tranings/traning':
+        title: Title
+        blurb: Blurb
+        date: Date
